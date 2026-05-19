@@ -14,3 +14,6 @@ pip install -r requirements.txt
 ```bash
 streamlit run dashboard-awaslink.py
 ```
+
+## **URL dashboard**
+https://awaslink-dashboard.streamlit.app/
