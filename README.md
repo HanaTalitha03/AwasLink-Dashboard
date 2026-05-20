@@ -1,4 +1,4 @@
-# **🛡️ AwasLink Dashboard — Analisis Deteksi Spam & Phishing**
+# **🛡️ AwasLink Dashboard — Analisis Deteksi Pesan Spam & Phishing**
 
 ## **Deskripsi**
 Aplikasi dashboard interaktif berbasis Streamlit yang digunakan untuk menganalisis deteksi pesan spam dan phishing pada dataset pesan Indonesia.
