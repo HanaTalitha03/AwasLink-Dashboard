@@ -1,7 +1,7 @@
 # **🛡️ AwasLink Dashboard — Analisis Deteksi Pesan Phishing**
 
 ## **Deskripsi**
-AwasLink Dashboard merupakan aplikasi interaktif berbasis Streamlit yang digunakan untuk mengeksplorasi dan menganalisis dataset pesan phishing berbahasa Indonesia. Dashboard menyajikan distribusi data, kata dominan, karakteristik pesan, serta hasil evaluasi model yang digunakan dalam pengembangan sistem deteksi phishing AwasLink.
+AwasLink Dashboard merupakan aplikasi interaktif berbasis Streamlit yang digunakan untuk mengeksplorasi dan menganalisis dataset pesan spam berbahasa Indonesia. Dashboard menyajikan distribusi data, kata dominan, karakteristik pesan, serta hasil evaluasi model yang digunakan dalam pengembangan sistem deteksi phishing AwasLink.
 
 ## **Replikasi Analisis**
 **Clone Repository**
@@ -21,11 +21,9 @@ pip install -r requirements.txt
 
 Buka file `Capstone_Project_Data_Scientist.ipynb` menggunakan Jupyter Notebook atau Google Colab, kemudian jalankan seluruh cell secara berurutan.
 
-Tahapan analisis meliputi:
-- Exploratory Data Analysis (EDA)
-- Feature engineering
-- Pembangunan dan evaluasi model
-- A/B Testing Model A dan Model B
+- Eksplorasi data (distribusi kelas, kata dominan, fitur numerik)
+- Feature engineering (TF-IDF + fitur manual)
+- A/B Testing: Model A (TF-IDF) vs Model B (TF-IDF + fitur manual), dievaluasi dengan Recall dan Z-test proporsi (α = 0.05)
 
 **Jalankan Dashboard**
 ```bash
