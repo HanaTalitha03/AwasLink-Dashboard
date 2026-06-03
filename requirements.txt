@@ -4,3 +4,4 @@ seaborn>=0.13.0
 matplotlib>=3.8.0
 numpy>=1.26.0
 wordcloud>=1.9.0
+statsmodels>=0.14.0
