@@ -1,0 +1,111 @@
+Dataset,Nama Kolom,Tipe Data,Jumlah Null,Deskripsi
+dataset_sms_spam_v2,Teks,object,0,Isi teks pesan
+dataset_sms_spam_v2,label,object,0,Label kategori pesan
+sms_spam_indo,Kategori,object,0,Label pesan spam atau ham
+sms_spam_indo,Pesan,object,0,Isi pesan SMS
+email_spam_indo,Kategori,object,0,Label email spam atau ham
+email_spam_indo,Pesan,object,0,Isi email
+dataset_multilingual,Unnamed: 0,int64,0,Index baris dataset
+dataset_multilingual,labels,object,0,Label kelas: ham / spam
+dataset_multilingual,text,object,0,Teks pesan asli bahasa Inggris
+dataset_multilingual,text_hi,object,0,Teks bahasa Hindi
+dataset_multilingual,text_de,object,0,Teks bahasa Jerman
+dataset_multilingual,text_fr,object,0,Teks bahasa Prancis
+dataset_multilingual,text_es,object,0,Teks bahasa Spanyol
+dataset_multilingual,text_zh,object,26,Teks bahasa Mandarin
+dataset_multilingual,text_ar,object,1,Teks bahasa Arab
+dataset_multilingual,text_bn,object,0,Teks bahasa Bengali
+dataset_multilingual,text_ru,object,0,Teks bahasa Rusia
+dataset_multilingual,text_pt,object,0,Teks bahasa Portugis
+dataset_multilingual,text_ja,object,0,Teks bahasa Jepang
+dataset_multilingual,text_id,object,0,Teks bahasa Indonesia
+dataset_multilingual,text_ur,object,0,Teks bahasa Urdu
+dataset_multilingual,text_pa,object,0,Teks bahasa Punjabi
+dataset_multilingual,text_jv,object,0,Teks bahasa Jawa
+dataset_multilingual,text_tr,object,0,Teks bahasa Turki
+dataset_multilingual,text_ko,object,56,Teks bahasa Korea
+dataset_multilingual,text_mr,object,0,Teks bahasa Marathi
+dataset_multilingual,text_uk,object,0,Teks bahasa Ukraina
+dataset_multilingual,text_sv,object,0,Teks bahasa Swedia
+dataset_multilingual,text_no,object,0,Teks bahasa Norwegia
+PhiUSIIL_Phishing_URL,FILENAME,object,0,Nama file HTML
+PhiUSIIL_Phishing_URL,URL,object,0,URL yang dianalisis
+PhiUSIIL_Phishing_URL,URLLength,int64,0,Panjang karakter URL
+PhiUSIIL_Phishing_URL,Domain,object,0,Nama domain
+PhiUSIIL_Phishing_URL,DomainLength,int64,0,Panjang domain
+PhiUSIIL_Phishing_URL,IsDomainIP,int64,0,Apakah domain berupa IP address
+PhiUSIIL_Phishing_URL,TLD,object,0,Top-level domain
+PhiUSIIL_Phishing_URL,URLSimilarityIndex,float64,0,-
+PhiUSIIL_Phishing_URL,CharContinuationRate,float64,0,-
+PhiUSIIL_Phishing_URL,TLDLegitimateProb,float64,0,-
+PhiUSIIL_Phishing_URL,URLCharProb,float64,0,-
+PhiUSIIL_Phishing_URL,TLDLength,int64,0,-
+PhiUSIIL_Phishing_URL,NoOfSubDomain,int64,0,Jumlah subdomain
+PhiUSIIL_Phishing_URL,HasObfuscation,int64,0,-
+PhiUSIIL_Phishing_URL,NoOfObfuscatedChar,int64,0,-
+PhiUSIIL_Phishing_URL,ObfuscationRatio,float64,0,-
+PhiUSIIL_Phishing_URL,NoOfLettersInURL,int64,0,-
+PhiUSIIL_Phishing_URL,LetterRatioInURL,float64,0,-
+PhiUSIIL_Phishing_URL,NoOfDegitsInURL,int64,0,-
+PhiUSIIL_Phishing_URL,DegitRatioInURL,float64,0,-
+PhiUSIIL_Phishing_URL,NoOfEqualsInURL,int64,0,-
+PhiUSIIL_Phishing_URL,NoOfQMarkInURL,int64,0,-
+PhiUSIIL_Phishing_URL,NoOfAmpersandInURL,int64,0,-
+PhiUSIIL_Phishing_URL,NoOfOtherSpecialCharsInURL,int64,0,-
+PhiUSIIL_Phishing_URL,SpacialCharRatioInURL,float64,0,-
+PhiUSIIL_Phishing_URL,IsHTTPS,int64,0,Apakah menggunakan HTTPS
+PhiUSIIL_Phishing_URL,LineOfCode,int64,0,-
+PhiUSIIL_Phishing_URL,LargestLineLength,int64,0,-
+PhiUSIIL_Phishing_URL,HasTitle,int64,0,-
+PhiUSIIL_Phishing_URL,Title,object,0,-
+PhiUSIIL_Phishing_URL,DomainTitleMatchScore,float64,0,-
+PhiUSIIL_Phishing_URL,URLTitleMatchScore,float64,0,-
+PhiUSIIL_Phishing_URL,HasFavicon,int64,0,Apakah halaman memiliki favicon
+PhiUSIIL_Phishing_URL,Robots,int64,0,-
+PhiUSIIL_Phishing_URL,IsResponsive,int64,0,-
+PhiUSIIL_Phishing_URL,NoOfURLRedirect,int64,0,-
+PhiUSIIL_Phishing_URL,NoOfSelfRedirect,int64,0,-
+PhiUSIIL_Phishing_URL,HasDescription,int64,0,-
+PhiUSIIL_Phishing_URL,NoOfPopup,int64,0,-
+PhiUSIIL_Phishing_URL,NoOfiFrame,int64,0,-
+PhiUSIIL_Phishing_URL,HasExternalFormSubmit,int64,0,-
+PhiUSIIL_Phishing_URL,HasSocialNet,int64,0,-
+PhiUSIIL_Phishing_URL,HasSubmitButton,int64,0,-
+PhiUSIIL_Phishing_URL,HasHiddenFields,int64,0,-
+PhiUSIIL_Phishing_URL,HasPasswordField,int64,0,Apakah terdapat field password
+PhiUSIIL_Phishing_URL,Bank,int64,0,Konten berkaitan dengan bank
+PhiUSIIL_Phishing_URL,Pay,int64,0,Konten berkaitan dengan pembayaran
+PhiUSIIL_Phishing_URL,Crypto,int64,0,Konten berkaitan dengan crypto
+PhiUSIIL_Phishing_URL,HasCopyrightInfo,int64,0,-
+PhiUSIIL_Phishing_URL,NoOfImage,int64,0,-
+PhiUSIIL_Phishing_URL,NoOfCSS,int64,0,-
+PhiUSIIL_Phishing_URL,NoOfJS,int64,0,-
+PhiUSIIL_Phishing_URL,NoOfSelfRef,int64,0,-
+PhiUSIIL_Phishing_URL,NoOfEmptyRef,int64,0,-
+PhiUSIIL_Phishing_URL,NoOfExternalRef,int64,0,-
+PhiUSIIL_Phishing_URL,label,int64,0,"0 = legitimate, 1 = phishing"
+combined_dataset_features,text,object,0,Isi pesan SMS/email
+combined_dataset_features,label,int64,0,"0 = normal, 1 = phishing/spam"
+combined_dataset_features,panjang_pesan,int64,0,Jumlah karakter pesan
+combined_dataset_features,jumlah_kata,int64,0,Jumlah kata
+combined_dataset_features,ada_url,int64,0,Apakah terdapat URL
+combined_dataset_features,jumlah_url,int64,0,Jumlah URL
+combined_dataset_features,angka_telepon,int64,0,Apakah terdapat nomor telepon
+combined_dataset_features,kata_mendesak,int64,0,Apakah terdapat kata mendesak
+combined_dataset_features,kata_hadiah,int64,0,Apakah terdapat kata hadiah/promo
+combined_dataset_features,kata_sensitif,int64,0,Apakah terdapat kata sensitif
+combined_dataset_features,nama_brand,int64,0,Apakah terdapat nama brand/bank
+combined_dataset_features,jumlah_tanda_seru,int64,0,Jumlah tanda seru
+combined_dataset_features,jumlah_angka,int64,0,Jumlah angka
+combined_dataset_features,jumlah_huruf_kapital,int64,0,Jumlah huruf kapital
+combined_dataset_features,rasio_huruf_kapital,float64,0,Rasio huruf kapital
+combined_dataset_features,simbol,int64,0,Jumlah simbol khusus
+combined_dataset_features,panjang_url,int64,0,Panjang URL
+combined_dataset_features,url_https,int64,0,Apakah URL menggunakan HTTPS
+combined_dataset_features,jumlah_titik_url,int64,0,Jumlah titik pada URL
+combined_dataset_features,jumlah_strip_url,int64,0,Jumlah strip pada URL
+combined_dataset_features,jumlah_subdomain,int64,0,Jumlah subdomain
+combined_dataset_features,url_singkat,int64,0,Apakah menggunakan URL shortener
+combined_dataset_features,domain_indo,int64,0,Apakah domain Indonesia
+combined_dataset_features,ip_di_url,int64,0,Apakah URL mengandung IP address
+combined_dataset_features,Kelas,object,0,-
