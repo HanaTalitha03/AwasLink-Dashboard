@@ -18,12 +18,14 @@ pip install -r requirements.txt
 ```
 
 **Jalankan Notebook**
+```bash
 Buka file `Capstone_Project_Data_Scientist.ipynb` menggunakan Jupyter Notebook atau Google Colab, kemudian jalankan seluruh cell secara berurutan.
 
 Tahapan analisis dalam notebook meliputi:
 - Eksplorasi data (distribusi kelas, kata dominan, fitur numerik)
 - Feature engineering (TF-IDF + fitur manual)
 - A/B Testing: Model A (TF-IDF) vs Model B (TF-IDF + fitur manual), dievaluasi dengan Recall dan Z-test proporsi (α = 0.05)
+```
 
 **Run streamlit app**
 ```bash
